@@ -1,6 +1,6 @@
-import React from "https://esm.sh/react@17.0.2";
-import ReactDom from "https://esm.sh/react-dom@17.0.2";
+import React from "https://esm.sh/react";
+import ReactDOM from "https://esm.sh/react-dom/client";
 
 import App from "./App.tsx";
 
-ReactDom.render(<App />, document.getElementById("root"));
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);

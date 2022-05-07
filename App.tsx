@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "https://esm.sh/react@17.0.2";
-import styled from "https://esm.sh/@emotion/styled?deps=react@17.0.2";
+import React, { useState, useEffect } from "https://esm.sh/react";
+import styled from "https://esm.sh/@emotion/styled";
 
 type Item = {
   id: number;

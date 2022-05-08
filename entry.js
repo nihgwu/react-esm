@@ -7,6 +7,7 @@ if ("serviceWorker" in navigator) {
         if (registration.active?.state === "activated") {
           importApp();
         } else {
+          document.getElementById('root').innerHTML = 'Initializing...';
           (registration.active || registration.installing).onstatechange =
             () => {
               if (registration.active?.state === "activated") {

@@ -1,4 +1,4 @@
-import { transform as _transform } from "https://esm.sh/sucrase-esm";
+import { transform as _transform } from "https://esm.sh/sucrase";
 import { createPatch, packagesToPatch } from './sw-patch.js';
 
 const transform = (code) => {
